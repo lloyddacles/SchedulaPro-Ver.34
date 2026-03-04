@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SchedulaPro
 
 **Enterprise-level Classroom Scheduling Information System** for Senior High School and College institutions.
@@ -230,3 +231,6 @@ Built with ❤️ using modern web technologies.
 **For deployment help, see [DEPLOYMENT_GUIDE.md](./DEPLOYMENT_GUIDE.md)**
 
 **Questions? Open an issue or contact your system administrator.**
+=======
+# SchedulaPro-Ver.34
+>>>>>>> 1a06f3b88cbabe87b389e5db3c5d61e4d4d19e11
