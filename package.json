@@ -4,12 +4,13 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "lint": "echo 'Linting...'",
-    "deploy": "vercel --prod"
-  },
+  "dev": "vite",
+  "prebuild": "chmod +x ./node_modules/.bin/vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "lint": "echo 'Linting...'",
+  "deploy": "vercel --prod"
+},
   "dependencies": {
     "@emotion/react": "11.14.0",
     "@emotion/styled": "11.14.1",
